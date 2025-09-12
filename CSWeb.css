@@ -37,6 +37,9 @@ nav a
   padding: 0.5em 0;
 }
 
+
+
+
 .mainscreen 
 {
     background-image:url('Project1Images/OCCampusImage.png');
@@ -48,6 +51,19 @@ nav a
     justify-content: center;
     color: #fff;
 }
+.backgroundscreen 
+{
+    background-image:url('Project1Images/backgroundDesignImage.webp');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
 
 .dropdown
 {
@@ -61,7 +77,6 @@ nav a
   top: 100%;
   background-color:#7e0808;
   min-width: 200px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -91,6 +106,10 @@ nav a
     margin: auto;
 }
 
+
+
+
+
 .team
 {
     display: grid;
@@ -115,7 +134,84 @@ nav a
     margin-bottom: 0.5em;
 }
 
+nav-arrows 
+{
+  position: fixed;
+  display: flex;
+}
+.nav-arrows a 
+{
+  text-decoration: none;
+}
+.nav-arrows img 
+{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
 
+
+.content-row 
+{
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.whatIsCS-image 
+{
+    border: 10px solid #ba1f1f;
+    border-radius: 10px;    
+    max-width: 100%;            
+    height: auto;
+}
+
+
+
+
+.csTypeContent-row 
+{
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    max-width: 1000px;
+    width: 90%;
+    margin: 2em auto;
+}
+.csTypeSection 
+{
+    padding: 2em;
+    max-width: 800px;
+}
+.csType-image 
+{
+
+    border: 10px solid #ba1f1f;
+    border-radius: 10px;    
+    max-width: 400px;
+    width: 100%;            
+    height: auto;
+}
+
+.student-trait {
+    display: flex;
+    align-items: middle;
+    margin: 50px 0;
+}
+
+.student-trait img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;    
+    border-radius: 10px;
+    object-fit: cover;
+}
 
 body {
     background: #e6e6e6;
