@@ -115,3 +115,184 @@ nav a
     margin-bottom: 0.5em;
 }
 
+
+
+body {
+    background: #e6e6e6;
+}
+.whycs-container {
+    background: #fff;
+    margin: 32px auto;
+    padding: 0;
+    max-width: 1100px;
+    min-height: 700px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    position: relative;
+}
+.whycs-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 32px 48px 0 48px;
+}
+.whycs-logo {
+    color: #b30000;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: inherit;
+}
+.whycs-links a {
+    color: #222;
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.whycs-main-bg {
+    background: #dedede;
+    width: 100%;
+    height: 370px;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: 0;
+}
+.whycs-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #b30000;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: inherit;
+    position: relative;
+    z-index: 1;
+}
+.whycs-content-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+.whycs-image-container {
+    width: 200px;
+    height: 200px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.whycs-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.whycs-info {
+    font-size: 1.1em;
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+    line-height: 1.6;
+    max-width: 480px;
+    word-break: break-word;
+}
+@media (max-width: 900px) {
+    .whycs-content-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .whycs-image-container {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .whycs-info {
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+        .life-cs-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #b30000;
+            text-align: left;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            margin-left: 70px;
+            font-family: inherit;
+        }
+        .life-cs-content-row {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 32px;
+            margin-left: 70px;
+        }
+        .life-cs-rect {
+            width: 240px;
+            height: 130px;
+            background: #d71414;
+            margin-right: 48px;
+            border-radius: 8px;
+        }
+        .life-cs-info {
+            font-size: 1.15em;
+            color: #222;
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+            margin-top: 40px;
+            line-height: 1.5;
+        }
+        .life-cs-image-container {
+            width: 240px;
+            height: 130px;
+            margin-right: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .life-cs-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        @media (max-width: 900px) {
+            .life-cs-content-row {
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0;
+            }
+            .life-cs-rect {
+                margin-right: 0;
+                margin-bottom: 16px;
+            }
+            .life-cs-info {
+                margin-top: 0;
+                text-align: center;
+            }
+            .life-cs-image-container {
+                margin-right: 0;
+                margin-bottom: 16px;
+            }
+        }
+    
+.whycs-content-row, .life-cs-content-row {
+    align-items: center;
+}
+
+.whycs-info, .life-cs-info {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
