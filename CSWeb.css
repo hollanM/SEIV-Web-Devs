@@ -134,10 +134,6 @@ nav a
     margin-bottom: 0.5em;
 }
 
-
-
-
-
 nav-arrows 
 {
   position: fixed;
@@ -177,8 +173,6 @@ nav-arrows
 
 
 
-
-
 .csTypeContent-row 
 {
     text-align:center;
@@ -205,3 +199,19 @@ nav-arrows
     height: auto;
 }
 
+
+
+
+.student-trait {
+    display: flex;
+    align-items: middle;
+    margin: 50px 0;
+}
+
+.student-trait img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;    
+    border-radius: 10px;
+    object-fit: cover;
+}
