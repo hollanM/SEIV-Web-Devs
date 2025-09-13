@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - dev
+      - Dev
 
 jobs:
   aws-deploy:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: dev
+          ref: Dev
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.1
         env:
